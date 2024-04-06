@@ -1,0 +1,37 @@
+
+.wrapper{
+    padding: 15px;
+    > .infoPlayer {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 35px;
+       > h3 {
+        font-size: 18px;
+        color: white;
+       }
+       > h4 {
+        color: white;
+       }
+    }
+    > .inputBlock {
+        display: flex;
+        justify-content: center;
+        > input {
+            text-align: center;
+            outline: none;
+            border: none;
+            height: 32px;
+            border-radius: 10px;
+            width: 50%;
+            color: #5741eb;
+        }
+        > button {
+            border-radius: 10px;
+            width: 25%;
+            border: none;
+            background-color: #5741eb;
+            color: white;
+            font-size: 22px;
+        }
+    }  
+}

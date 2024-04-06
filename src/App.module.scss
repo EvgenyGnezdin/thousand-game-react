@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+.wrapper {
+    font-family: 'Open-Sans', sans-serif;
+    > .container {
+        > .header {
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            > img {
+                width: 40px;
+                height: 40px;
+            }
+            > h2 {
+                margin-left: 20px;
+                color: white;
+                font-weight: 500;
+            }
+        }
+        > .inputBlock {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            > label {
+                padding: 12px;
+                color: #88e9f6;
+            }
+            > div {
+                input {
+                    border-radius: 20px;
+                    border: none;
+                    outline: none;
+                    text-align: center;
+                    padding: 10px;
+                    color: #2d9cab;
+                    font-size: 18px;
+                }
+                > button {
+                    margin-top: 15px;
+                    border: 2px solid #5741eb;
+                    padding: 10px 30px;
+                    border-radius: 20px;
+                    outline: none;
+                    text-align: center;
+                    color: #2d9cab;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    > button {
+        margin: 0 auto;
+        padding: 12px 35px;
+        border: 2px solid #5741eb;
+        background-color: transparent;
+        outline: none;
+        color: white;
+        border-radius: 15px;
+        transition: background-color .7s;
+    }
+    > button:hover {
+        background-color: #5741eb;
+        transition: background-color .7s;
+    }
+}
