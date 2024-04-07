@@ -33,7 +33,7 @@ function App() {
   }
 
   return (
-    <div className={styles.wrapper}>
+    <div className={styles.wrapper} style={{transform: `${array.length == 0 ? 'translateY(230px)' : 'translateY(0px)'}`, transition: 'all .8s ease'}}>
       <div className={styles.container}>
         <div className={styles.header}>
           <img src={img} alt="kosti" />

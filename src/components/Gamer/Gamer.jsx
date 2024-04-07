@@ -33,4 +33,8 @@ const Gamer = ({ name }) => {
     )
 }
 
+Gamer.propTypes = {
+    name: PropTypes.string.isRequired
+}
+
 export default Gamer;
